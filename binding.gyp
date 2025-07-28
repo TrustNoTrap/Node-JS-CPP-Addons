@@ -5,6 +5,12 @@
             "sources": [
                 "test.cpp"
             ]
+        },
+        {
+            "target_name": "testing",
+            "sources": [
+                "testTwo.cpp"
+            ]
         }
     ]
 }
