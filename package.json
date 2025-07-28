@@ -2,7 +2,7 @@
   "scripts": {
     "configure": "npx node-gyp configure",
     "build": "npx node-gyp build",
-    "test:js": "node test.js"
+    "test:js": "npm run build && node index.js"
   },
   "dependencies": {
     "node-gyp": "^11.2.0"
