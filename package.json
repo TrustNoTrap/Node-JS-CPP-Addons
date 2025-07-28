@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "configure": "npx node-gyp configure",
+    "build": "npx node-gyp build",
+    "test:js": "node test.js"
+  },
+  "dependencies": {
+    "node-gyp": "^11.2.0"
+  }
+}
