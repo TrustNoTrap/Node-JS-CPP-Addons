@@ -9,5 +9,5 @@ console.log(
 )
 
 console.log(
-    testNativeTwo.start('test')
+    testNativeTwo.testMethod('test')
 )
